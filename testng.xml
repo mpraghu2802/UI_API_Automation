@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Workspace/FIS_Test">
+        <classes>
+            <class name="com.fisTest.tests.BpiApiTest">
+                <methods>
+                    <include name="bpiValidate"/>
+                </methods>
+            </class>
+            <class name="com.fisTest.tests.EbayUITest">
+                <methods>
+                    <include name="ebayCartValidate"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
